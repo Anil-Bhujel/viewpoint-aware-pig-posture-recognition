@@ -16,6 +16,10 @@ Posture recognition in overhead livestock cameras is challenging because the sam
 
 > For posture class definitions, CSV column descriptions, camera setup, and viewpoint angle convention, see the [HuggingFace dataset page](https://huggingface.co/datasets/anilbhujel/viewpoint-aware-pig-posture-recognition).
 
+### Camera Setup
+
+![Pen and camera array](pen_and_camera_array.png)
+
 ### Results
 
 | Test Set | Accuracy | Macro F1 |
