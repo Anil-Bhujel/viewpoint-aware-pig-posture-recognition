@@ -1,0 +1,25 @@
+# Core deep learning
+# Install PyTorch with the CUDA version matching your system, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Tested with:
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Backbone & pretrained weights
+transformers>=4.30.0
+huggingface_hub>=0.20.0
+
+# Computer vision & image processing
+opencv-python-headless>=4.8.0
+Pillow>=9.0.0
+
+# Numerical & data handling
+numpy>=1.24.0
+pandas>=1.5.0
+
+# Evaluation & metrics
+scikit-learn>=1.2.0
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0

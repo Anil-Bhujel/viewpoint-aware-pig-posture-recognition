@@ -1,0 +1,42 @@
+{
+  "elevation_convention": "zenith",
+  "pen_floor": {
+    "width_m": 1.0,
+    "height_m": 0.4795471724490191,
+    "note": "Reference calibration region. Angle computation enabled for entire image."
+  },
+  "cameras": {
+    "pen1_tur_cam1": {
+      "model": "fisheye",
+      "calib_path": "gt_camera_parameters/pen1_tur_cam1_calibration.npz",
+      "calib_width": 1280,
+      "calib_height": 720,
+      "pnp_results_path": "results/zenith/pen1_tur_cam1/camera_params.json",
+      "notes": "PnP-estimated: FISHEYE camera. Angle computation enabled for entire image."
+    },
+    "pen1_tur_cam2": {
+      "model": "fisheye",
+      "calib_path": "gt_camera_parameters/pen1_tur_cam2_calibration.npz",
+      "calib_width": 1280,
+      "calib_height": 720,
+      "pnp_results_path": "results/zenith/pen1_tur_cam2/camera_params.json",
+      "notes": "PnP-estimated: FISHEYE camera. Angle computation enabled for entire image."
+    },
+    "pen1_orb_cam1": {
+      "model": "pinhole",
+      "calib_path": "gt_camera_parameters/p1c1_orb.ini",
+      "calib_width": 1920,
+      "calib_height": 1080,
+      "pnp_results_path": "results/zenith/pen1_orb_cam1/camera_params.json",
+      "notes": "PnP-estimated: PINHOLE camera. Angle computation enabled for entire image."
+    },
+    "pen1_orb_cam2": {
+      "model": "pinhole",
+      "calib_path": "gt_camera_parameters/p1c2_orb.ini",
+      "calib_width": 1920,
+      "calib_height": 1080,
+      "pnp_results_path": "results/zenith/pen1_orb_cam2/camera_params.json",
+      "notes": "PnP-estimated: PINHOLE camera. Angle computation enabled for entire image."
+    }
+  }
+}

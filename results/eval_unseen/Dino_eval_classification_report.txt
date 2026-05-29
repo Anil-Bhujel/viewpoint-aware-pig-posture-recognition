@@ -1,0 +1,11 @@
+                     precision    recall  f1-score   support
+
+ Lateral_lying_left     0.8465    0.8704    0.8583      1204
+Lateral_lying_right     0.8668    0.8593    0.8630      1386
+            Sitting     0.7458    0.7880    0.7663       283
+           Standing     0.9594    0.9842    0.9716      5809
+      Sternal_lying     0.8749    0.8206    0.8469      3026
+
+           accuracy                         0.9107     11708
+          macro avg     0.8587    0.8645    0.8612     11708
+       weighted avg     0.9098    0.9107    0.9099     11708

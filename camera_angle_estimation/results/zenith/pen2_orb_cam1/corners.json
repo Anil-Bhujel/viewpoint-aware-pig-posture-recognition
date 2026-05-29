@@ -1,0 +1,27 @@
+{
+  "image_path": "/home/anil/workspaces/floor_angle_estimation/results/zenith/pen2_orb_cam1/undistorted.jpg",
+  "corners": [
+    [
+      458.0,
+      924.0
+    ],
+    [
+      1654.0,
+      899.0
+    ],
+    [
+      1326.0,
+      171.0
+    ],
+    [
+      701.0,
+      174.0
+    ]
+  ],
+  "corner_order": [
+    "near_left",
+    "near_right",
+    "far_right",
+    "far_left"
+  ]
+}

@@ -1,0 +1,6 @@
+,Lateral_lying_left,Lateral_lying_right,Sitting,Standing,Sternal_lying
+Lateral_lying_left,1048,7,2,38,109
+Lateral_lying_right,5,1191,3,25,162
+Sitting,2,0,223,39,19
+Standing,6,4,17,5717,65
+Sternal_lying,177,172,54,140,2483

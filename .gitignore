@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+vpp_env/
+venv/
+env/
+.venv/
+
+# Model checkpoints (too large for GitHub — host on HuggingFace or use Git LFS)
+checkpoint/*.pt
+checkpoint/*.pth
+*.pt
+*.pth
+
+# Training run outputs
+runs/
+
+# Generated angle-map arrays and visualisation images (re-computed by pipeline_calib.py)
+camera_angle_estimation/results/**/*.npy
+camera_angle_estimation/results/**/*_vis.jpg
+camera_angle_estimation/results/**/undistorted.jpg
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp

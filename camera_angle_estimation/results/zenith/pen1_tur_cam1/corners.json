@@ -1,0 +1,27 @@
+{
+  "image_path": "/home/anil/workspaces/floor_angle_estimation/results/zenith/pen1_tur_cam1/undistorted.jpg",
+  "corners": [
+    [
+      358.0,
+      555.0
+    ],
+    [
+      1008.0,
+      533.0
+    ],
+    [
+      959.0,
+      283.0
+    ],
+    [
+      434.0,
+      129.0
+    ]
+  ],
+  "corner_order": [
+    "near_left",
+    "near_right",
+    "far_right",
+    "far_left"
+  ]
+}
