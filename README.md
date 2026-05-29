@@ -1,6 +1,6 @@
 # Viewpoint-Aware Pig Posture Recognition
 
-This repository contains the code for **viewpoint-aware pig posture recognition and Dataset** paper accepted in CV4Animals 2026. The system estimates per-camera viewing angles (azimuth and elevation) using PnP-based camera calibration and feeds those angles as conditioning signals into a DINOv2-based posture classifier.
+This repository contains the code for **Viewpoint-Aware Pig Posture Recognition and Benchmark Dataset** paper accepted in CV4Animals 2026. The system estimates per-camera viewing angles (azimuth and elevation) using PnP-based camera calibration and feeds those angles as conditioning signals into a DINOv2-based posture classifier.
 
 > **Dataset:** [viewpoint-aware-pig-posture-recognition](https://huggingface.co/datasets/anilbhujel/viewpoint-aware-pig-posture-recognition) on HuggingFace
 
@@ -363,10 +363,10 @@ python visualize_viewpoint_angles.py \
 If you use this code or dataset, please cite our work:
 
 ```bibtex
-@inproceedings{bhujel2025viewpoint,
-  title     = {Viewpoint-Aware Pig Posture Recognition},
-  author    = {Bhujel, Anil and others},
-  year      = {2025}
+@inproceedings{CV4Animals2026,
+  title     = {Viewpoint-Aware Pig Posture Recognition and Benchmark Dataset},
+  author    = {Bhujel, Anil, Bashar, Mk and Morris, Daniel},
+  year      = {2026}
 }
 ```
 
